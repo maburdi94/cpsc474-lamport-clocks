@@ -94,8 +94,7 @@ auto lamport_verify(int (&lc)[N][M]) {
     int count = 1;
     for (int i = 0; i < max; i++) {
         if (values[i] == nullptr) {
-            std::cout << "INCORRECT" << std::endl;
-            return output;
+            throw "Incorrect";
         } else if (i > 0 && *values[i] == "r") {
             *values[i-1] = ("s" + std::to_string(count));
             *values[i] = ("r" + std::to_string(count));

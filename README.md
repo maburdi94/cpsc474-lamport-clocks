@@ -36,3 +36,41 @@ Input 2
 {1, 2, 8, 9},
 {1, 6, 7, 0},
 {2, 4, 5, 6}
+
+
+
+
+
+## Example execution
+```console
+CALCULATING...
+1 2 8 9 
+1 6 7 0 
+3 4 5 6 
+
+CALCULATING...
+1 2 8 9 
+1 6 7 0 
+2 3 4 5 
+
+CALCULATING...
+3 4 5 6 
+1 2 3 0 
+1 2 7 0 
+
+VERIFYING...
+1 2 8 9 
+1 6 7 0 
+3 4 5 6 
+
+a s1 r3 d 
+b r2 s3  
+r1 c s2 e 
+
+VERIFYING...
+1 2 8 9 
+1 6 7 0 
+2 4 5 6 
+
+NO SOLUTION!
+```
